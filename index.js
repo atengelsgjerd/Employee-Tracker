@@ -14,6 +14,7 @@ async function main() {
         const res = await inquirer.prompt([
             {
                 type: "list",
+                loop: false,
                 message: "What would you like to do?",
                 name: "option",
                 choices: [
